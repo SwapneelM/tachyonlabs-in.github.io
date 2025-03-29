@@ -1,4 +1,5 @@
 import { About } from "./components/About";
+import { Collaborators } from "./components/Collaborators";
 import { Cta } from "./components/Cta";
 import { FAQ } from "./components/FAQ";
 import { Features } from "./components/Features";
@@ -8,6 +9,7 @@ import { HowItWorks } from "./components/HowItWorks";
 import { Navbar } from "./components/Navbar";
 import { Newsletter } from "./components/Newsletter";
 import { Pricing } from "./components/Pricing";
+import { Products } from "./components/Products";
 import { ScrollToTop } from "./components/ScrollToTop";
 import { Services } from "./components/Services";
 import { Sponsors } from "./components/Sponsors";
@@ -25,6 +27,8 @@ function App() {
       <HowItWorks />
       <Features />
       <Services />
+      <Products />
+      <Collaborators />
       <Cta />
       <Testimonials />
       <Team />

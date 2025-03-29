@@ -23,74 +23,27 @@ interface SociaNetworkslProps {
 
 const teamList: TeamProps[] = [
   {
-    imageUrl: "https://i.pravatar.cc/150?img=35",
-    name: "Emma Smith",
-    position: "Product Manager",
+    imageUrl: "https://media.licdn.com/dms/image/v2/C4D03AQFwYxStPy0UDg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1602557721009?e=1748476800&v=beta&t=yH0w-jWTOefnp5nZlEmUuPZEYrlEM3TmzyQOcHreb3Q",
+    name: "Dhara Mungra",
+    position: "Director",
     socialNetworks: [
       {
         name: "Linkedin",
-        url: "https://www.linkedin.com/in/leopoldo-miranda/",
-      },
-      {
-        name: "Facebook",
-        url: "https://www.facebook.com/",
-      },
-      {
-        name: "Instagram",
-        url: "https://www.instagram.com/",
-      },
+        url: "https://www.linkedin.com/in/dhara-mungra",
+      }
     ],
   },
   {
-    imageUrl: "https://i.pravatar.cc/150?img=60",
-    name: "John Doe",
-    position: "Tech Lead",
+    imageUrl: "https://avatars.githubusercontent.com/u/13250132?s=400&u=7ac1970caf2ef0140e68a37be46a65e976ba8683&v=4",
+    name: "Swapneel Mehta",
+    position: "Researcher",
     socialNetworks: [
       {
         name: "Linkedin",
-        url: "https://www.linkedin.com/in/leopoldo-miranda/",
-      },
-      {
-        name: "Facebook",
-        url: "https://www.facebook.com/",
-      },
-      {
-        name: "Instagram",
-        url: "https://www.instagram.com/",
-      },
+        url: "https://www.linkedin.com/in/swapneelm",
+      }
     ],
-  },
-  {
-    imageUrl: "https://i.pravatar.cc/150?img=36",
-    name: "Ashley Ross",
-    position: "Frontend Developer",
-    socialNetworks: [
-      {
-        name: "Linkedin",
-        url: "https://www.linkedin.com/in/leopoldo-miranda/",
-      },
-
-      {
-        name: "Instagram",
-        url: "https://www.instagram.com/",
-      },
-    ],
-  },
-  {
-    imageUrl: "https://i.pravatar.cc/150?img=17",
-    name: "Bruce Rogers",
-    position: "Backend Developer",
-    socialNetworks: [
-      {
-        name: "Linkedin",
-        url: "https://www.linkedin.com/in/leopoldo-miranda/",
-      },
-      {
-        name: "Facebook",
-        url: "https://www.facebook.com/",
-      },
-    ],
-  },
+  }
 ];
 
 export const Team = () => {
@@ -120,8 +73,7 @@ export const Team = () => {
       </h2>
 
       <p className="mt-4 mb-10 text-xl text-muted-foreground">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-        dolor pariatur sit!
+        We are a team of engineers and researchers developing innovative public interest technology!
       </p>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 gap-y-10">
@@ -144,7 +96,7 @@ export const Team = () => {
               </CardHeader>
 
               <CardContent className="text-center pb-2">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p>Our team works with staff at <a href="https://simppl.org">SimPPL</a> and <a href="https://sakhi-health.com">Sakhi</a> to advance digital trust using responsible AI tools.</p>
               </CardContent>
 
               <CardFooter>
