@@ -379,7 +379,7 @@ export default function Home() {
               <h3 className="text-xl font-bold text-center">Impact</h3>
               <p className="text-center text-gray-600">
                 We measure our success by the tangible results and positive impact we create for our clients and their
-                businesses reaching over 200 million users through our work.
+                businesses reaching over 100 million users through our work.
               </p>
             </div>
           </div>
