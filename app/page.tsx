@@ -60,12 +60,11 @@ export default function Home() {
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2 max-w-3xl">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-gray-900">
-                Innovative Digital Solutions for Your Business
+                Innovative Digital Solutions for Public Benefit
               </h1>
-              <p className="text-xl text-[#e05d44] font-medium mb-2">Accelerating Innovation</p>
+              <p className="text-xl text-[#e05d44] font-medium mb-2">Accelerating AI-led Innovation</p>
               <p className="max-w-[600px] text-gray-600 md:text-xl mx-auto">
-                TachyonLabs Innovations Private Limited provides expert technology consulting and custom software
-                solutions to help your business thrive in the digital era.
+                Tachyon Labs leverages decades of research and engineering experience to solve complex technological challenges in global development.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
@@ -77,7 +76,7 @@ export default function Home() {
               </a>
               <a href="#services">
                 <Button size="lg" variant="outline" className="border-[#e05d44] text-[#e05d44] hover:bg-[#e05d44]/10">
-                  Our Services
+                  Our Mission
                 </Button>
               </a>
             </div>
@@ -91,10 +90,10 @@ export default function Home() {
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-[#e05d44]">
-                Our Services
+                Our Mission
               </h2>
               <p className="max-w-[900px] text-gray-600 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                We offer a comprehensive range of technology services to help your business thrive in the digital era.
+                We advance public interest artificial intelligence tech in several countries, and educate the next generation of technologists.
               </p>
             </div>
           </div>
@@ -103,7 +102,7 @@ export default function Home() {
               <div className="p-3 bg-[#e05d44]/10 rounded-full">
                 <Code className="h-10 w-10 text-[#e05d44]" />
               </div>
-              <h3 className="text-xl font-bold text-center">Custom Software</h3>
+              <h3 className="text-xl font-bold text-center">Public Interest Technology</h3>
               <p className="text-center text-gray-600">
                 Tailored software solutions designed to address your specific business challenges.
               </p>
@@ -112,9 +111,9 @@ export default function Home() {
               <div className="p-3 bg-[#e05d44]/10 rounded-full">
                 <Globe className="h-10 w-10 text-[#e05d44]" />
               </div>
-              <h3 className="text-xl font-bold text-center">Web & Mobile Apps</h3>
+              <h3 className="text-xl font-bold text-center">Web & Mobile Platforms</h3>
               <p className="text-center text-gray-600">
-                Responsive applications that deliver exceptional user experiences across all devices.
+                Accessible technology designed for the global majority. 
               </p>
             </div>
             <div className="flex flex-col items-center space-y-4 p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
@@ -123,7 +122,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold text-center">Data Analytics & AI</h3>
               <p className="text-center text-gray-600">
-                Harness the power of your data with advanced analytics and artificial intelligence.
+                Harness the power of your data with advanced generative artificial intelligence.
               </p>
             </div>
             <div className="flex flex-col items-center space-y-4 p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
@@ -132,7 +131,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold text-center">Cloud Solutions</h3>
               <p className="text-center text-gray-600">
-                Scalable and secure cloud infrastructure to optimize your IT operations.
+                Scalable and secure cloud infrastructure at affordable costs.
               </p>
             </div>
           </div>
@@ -143,7 +142,7 @@ export default function Home() {
       <section className="w-full py-12 md:py-24 lg:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="grid gap-12">
-            {/* Custom Software Development */}
+            {/* Public Interest Technology */}
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
               <div className="flex justify-center">
                 <img
@@ -159,73 +158,29 @@ export default function Home() {
                   <Code className="h-6 w-6 text-[#e05d44]" />
                 </div>
                 <div className="space-y-2">
-                  <h2 className="text-3xl font-bold tracking-tighter text-[#e05d44]">Custom Software Development</h2>
+                  <h2 className="text-3xl font-bold tracking-tighter text-[#e05d44]">Public Interest Technology</h2>
                   <p className="text-gray-600 md:text-lg">
-                    We design and develop tailored software solutions that address your specific business challenges and
-                    requirements.
+                    We design and develop open-access generative AI software solutions to advance societal benefit.
                   </p>
                 </div>
                 <ul className="space-y-2">
                   <li className="flex items-center gap-2">
                     <div className="h-1.5 w-1.5 rounded-full bg-[#e05d44]" />
-                    <span>Enterprise Applications</span>
+                    <span>Enterprise-ready Applications</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="h-1.5 w-1.5 rounded-full bg-[#e05d44]" />
-                    <span>Workflow Automation</span>
+                    <span>Evidence-based Research</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="h-1.5 w-1.5 rounded-full bg-[#e05d44]" />
-                    <span>Integration Solutions</span>
+                    <span>Third-party AI Integrations</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="h-1.5 w-1.5 rounded-full bg-[#e05d44]" />
-                    <span>Legacy System Modernization</span>
+                    <span>Cloud-hosted Models</span>
                   </li>
                 </ul>
-              </div>
-            </div>
-
-            {/* Web & Mobile Applications */}
-            <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
-              <div className="flex flex-col justify-center space-y-4 order-2 lg:order-1">
-                <div className="p-2 bg-[#e05d44]/10 rounded-full w-fit">
-                  <Globe className="h-6 w-6 text-[#e05d44]" />
-                </div>
-                <div className="space-y-2">
-                  <h2 className="text-3xl font-bold tracking-tighter text-[#e05d44]">Web & Mobile Applications</h2>
-                  <p className="text-gray-600 md:text-lg">
-                    We create responsive web and mobile applications that deliver exceptional user experiences across
-                    all devices.
-                  </p>
-                </div>
-                <ul className="space-y-2">
-                  <li className="flex items-center gap-2">
-                    <div className="h-1.5 w-1.5 rounded-full bg-[#e05d44]" />
-                    <span>Progressive Web Apps (PWA)</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="h-1.5 w-1.5 rounded-full bg-[#e05d44]" />
-                    <span>Native Mobile Applications</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="h-1.5 w-1.5 rounded-full bg-[#e05d44]" />
-                    <span>Cross-platform Solutions</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="h-1.5 w-1.5 rounded-full bg-[#e05d44]" />
-                    <span>UI/UX Design</span>
-                  </li>
-                </ul>
-              </div>
-              <div className="flex justify-center order-1 lg:order-2">
-                <img
-                  src="/placeholder.svg?height=400&width=600"
-                  alt="Web & Mobile Applications"
-                  className="rounded-lg object-cover shadow-xl"
-                  width={600}
-                  height={400}
-                />
               </div>
             </div>
 
@@ -247,27 +202,69 @@ export default function Home() {
                 <div className="space-y-2">
                   <h2 className="text-3xl font-bold tracking-tighter text-[#e05d44]">Data Analytics & AI</h2>
                   <p className="text-gray-600 md:text-lg">
-                    Harness the power of your data with advanced analytics and artificial intelligence solutions.
+                    Harness the power of multimodal and multilingual data with advanced agentic AI systems.
                   </p>
                 </div>
                 <ul className="space-y-2">
                   <li className="flex items-center gap-2">
                     <div className="h-1.5 w-1.5 rounded-full bg-[#e05d44]" />
-                    <span>Business Intelligence</span>
+                    <span>Multilingual Language Models</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="h-1.5 w-1.5 rounded-full bg-[#e05d44]" />
-                    <span>Predictive Analytics</span>
+                    <span>Multimodal Machine Learning</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="h-1.5 w-1.5 rounded-full bg-[#e05d44]" />
-                    <span>Machine Learning Models</span>
+                    <span>Social Data Processing</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="h-1.5 w-1.5 rounded-full bg-[#e05d44]" />
-                    <span>Natural Language Processing</span>
+                    <span>Responsible AI Solutions</span>
                   </li>
                 </ul>
+              </div>
+            </div>
+
+            {/* Web & Mobile Applications */}
+            <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
+              <div className="flex flex-col justify-center space-y-4 order-2 lg:order-1">
+                <div className="p-2 bg-[#e05d44]/10 rounded-full w-fit">
+                  <Globe className="h-6 w-6 text-[#e05d44]" />
+                </div>
+                <div className="space-y-2">
+                  <h2 className="text-3xl font-bold tracking-tighter text-[#e05d44]">Web & Mobile Infrastructure</h2>
+                  <p className="text-gray-600 md:text-lg">
+                    We prioritize vulnerable populations by building civic technologies accessible on any device, in any language.
+                  </p>
+                </div>
+                <ul className="space-y-2">
+                  <li className="flex items-center gap-2">
+                    <div className="h-1.5 w-1.5 rounded-full bg-[#e05d44]" />
+                    <span>Progressive Web Apps (PWA)</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <div className="h-1.5 w-1.5 rounded-full bg-[#e05d44]" />
+                    <span>Native Mobile Applications</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <div className="h-1.5 w-1.5 rounded-full bg-[#e05d44]" />
+                    <span>Designed for the Global Majority</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <div className="h-1.5 w-1.5 rounded-full bg-[#e05d44]" />
+                    <span>Accessibility and Localization</span>
+                  </li>
+                </ul>
+              </div>
+              <div className="flex justify-center order-1 lg:order-2">
+                <img
+                  src="/placeholder.svg?height=400&width=600"
+                  alt="Web & Mobile Applications"
+                  className="rounded-lg object-cover shadow-xl"
+                  width={600}
+                  height={400}
+                />
               </div>
             </div>
 
@@ -280,7 +277,7 @@ export default function Home() {
                 <div className="space-y-2">
                   <h2 className="text-3xl font-bold tracking-tighter text-[#e05d44]">Cloud Infrastructure</h2>
                   <p className="text-gray-600 md:text-lg">
-                    Scalable and secure cloud solutions to optimize your IT infrastructure and reduce costs.
+                    Scalable and secure cloud based AI technologies with low-latency and on-premise deployment for data privacy.
                   </p>
                 </div>
                 <ul className="space-y-2">
@@ -342,14 +339,13 @@ export default function Home() {
               <div className="space-y-2">
                 <h3 className="text-2xl font-bold tracking-tighter text-[#e05d44]">Our Story</h3>
                 <p className="text-gray-600 md:text-lg">
-                  Founded with a simple mission: to help businesses leverage technology for growth and innovation. What
-                  started as a small team of passionate technologists has grown into a leading technology consulting
-                  firm serving clients across India and worldwide.
+                  Founded with a simple mission: to develop open-access technology for advancing democratic governance. We grew from a small team of passionate technologists in India has grown into a leading technology consulting
+                  firm serving clients in seven countries across the globe.
                 </p>
                 <p className="text-gray-600 md:text-lg">
-                  Over the years, we've helped hundreds of businesses transform their operations, develop innovative
+                  Over the years, we've helped intergovernmental agencies, civil society, universities, and nonprofits transform their operations, develop innovative
                   products, and stay ahead in an increasingly digital world. Our success is built on our commitment to
-                  excellence, our deep technical expertise, and our client-centered approach.
+                  excellence, our deep technical expertise, cutting-edge research capabilities, and our approach to user-centered design.
                 </p>
               </div>
             </div>
@@ -362,7 +358,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold text-center">Innovation</h3>
               <p className="text-center text-gray-600">
-                We constantly explore new technologies and approaches to deliver cutting-edge solutions that drive
+                We constantly explore new technologies and approaches to deliver cutting-edge AI solutions that drive
                 business value.
               </p>
             </div>
@@ -383,7 +379,7 @@ export default function Home() {
               <h3 className="text-xl font-bold text-center">Impact</h3>
               <p className="text-center text-gray-600">
                 We measure our success by the tangible results and positive impact we create for our clients and their
-                businesses.
+                businesses reaching over 200 million users through our work.
               </p>
             </div>
           </div>
@@ -412,7 +408,7 @@ export default function Home() {
                   <div>
                     <h3 className="text-lg font-semibold">Our Office</h3>
                     <p className="text-gray-600">
-                      BUNGLOW NO. 5 DIP BUNGLOW, OPP SATY TIRVENI TOWER,
+                      Bunglow no. 5 Dip Bunglow, Opp Satya Triveni Tower,
                       <br />
                       Jodhpur Char Rasta, Ahmedabad, Ahmadabad City,
                       <br />
@@ -426,7 +422,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold">Phone</h3>
-                    <p className="text-gray-600">+919328086219</p>
+                    <p className="text-gray-600">+91 9328086219</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">

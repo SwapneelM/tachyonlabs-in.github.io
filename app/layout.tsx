@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "TachyonLabs - Accelerating Innovation",
   description:
-    "TachyonLabs Innovations Private Limited - Expert technology consulting and innovative digital solutions for businesses.",
+        "TachyonLabs Innovations Pvt. Ltd. - Developing Public Interest Artificial Intelligence Technology.",
     generator: 'v0.dev'
 }
 
