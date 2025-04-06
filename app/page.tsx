@@ -93,7 +93,7 @@ export default function Home() {
                 Our Mission
               </h2>
               <p className="max-w-[900px] text-gray-600 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                We advance public interest artificial intelligence tech in several countries, and educate the next generation of technologists.
+                We build award-winning public interest artificial intelligence technology for societal benefit, and educate the next generation of technologists to lead responsible innovation.
               </p>
             </div>
           </div>
@@ -104,25 +104,25 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold text-center">Public Interest Technology</h3>
               <p className="text-center text-gray-600">
-                Tailored software solutions designed to address your specific business challenges.
+                Tailored software solutions designed to advance economic benefit to local populations and mitigate digital harms.
               </p>
             </div>
             <div className="flex flex-col items-center space-y-4 p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
               <div className="p-3 bg-[#e05d44]/10 rounded-full">
                 <Globe className="h-10 w-10 text-[#e05d44]" />
               </div>
-              <h3 className="text-xl font-bold text-center">Web & Mobile Platforms</h3>
+              <h3 className="text-xl font-bold text-center">Accessibility Across Platforms</h3>
               <p className="text-center text-gray-600">
-                Accessible technology designed for the global majority. 
+                Accessible technology designed to bridge languages, cultures, and populations. 
               </p>
             </div>
             <div className="flex flex-col items-center space-y-4 p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
               <div className="p-3 bg-[#e05d44]/10 rounded-full">
                 <Database className="h-10 w-10 text-[#e05d44]" />
               </div>
-              <h3 className="text-xl font-bold text-center">Data Analytics & AI</h3>
+              <h3 className="text-xl font-bold text-center">Multimodal AI Models</h3>
               <p className="text-center text-gray-600">
-                Harness the power of your data with advanced generative artificial intelligence.
+                Advanced Generative AI for real-time understanding of patterns in text, images, audio, and video.
               </p>
             </div>
             <div className="flex flex-col items-center space-y-4 p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
@@ -131,23 +131,25 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold text-center">Cloud Solutions</h3>
               <p className="text-center text-gray-600">
-                Scalable and secure cloud infrastructure at affordable costs.
+                Scalable and secure cloud infrastructure for data privacy at affordable costs.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Detailed Services Section */}
+      {/* Sakhi */}
       <section className="w-full py-12 md:py-24 lg:py-32 bg-white">
         <div className="container px-4 md:px-6">
-          <div className="grid gap-12">
-            {/* Public Interest Technology */}
+          <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-[#e05d44]">
+            Impact
+          </h1>
+          <div className="grid gap-12">            
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
               <div className="flex justify-center">
                 <img
-                  src="/placeholder.svg?height=400&width=600"
-                  alt="Custom Software Development"
+                  src="/sakhi-jalgaon.webp"
+                  alt="Sakhi Health using Generative AI for Digital Literacy"
                   className="rounded-lg object-cover shadow-xl"
                   width={600}
                   height={400}
@@ -158,38 +160,39 @@ export default function Home() {
                   <Code className="h-6 w-6 text-[#e05d44]" />
                 </div>
                 <div className="space-y-2">
-                  <h2 className="text-3xl font-bold tracking-tighter text-[#e05d44]">Public Interest Technology</h2>
+                  <h2 className="text-3xl font-bold tracking-tighter text-[#e05d44]">Sakhi Health</h2>
                   <p className="text-gray-600 md:text-lg">
-                    We design and develop open-access generative AI software solutions to advance societal benefit.
+                    We operate Sakhi Health in India, focused on national health literacy using a novel three-point Generative AI platform supporting mothers, community health workers, 
+                    and nonprofit program officers working with state governments to deliver medical expert-verified multilingual healthcare information to the most vulnerable populations.
                   </p>
                 </div>
                 <ul className="space-y-2">
                   <li className="flex items-center gap-2">
                     <div className="h-1.5 w-1.5 rounded-full bg-[#e05d44]" />
-                    <span>Enterprise-ready Applications</span>
+                    <span>Medical Expert-verified Information</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="h-1.5 w-1.5 rounded-full bg-[#e05d44]" />
-                    <span>Evidence-based Research</span>
+                    <span>Evidence-based Health Intervention Technology</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="h-1.5 w-1.5 rounded-full bg-[#e05d44]" />
-                    <span>Third-party AI Integrations</span>
+                    <span>Community-based Model for Data Governance</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="h-1.5 w-1.5 rounded-full bg-[#e05d44]" />
-                    <span>Cloud-hosted Models</span>
+                    <span>Ongoing Multi-state Pilots with Indian Council of Medical Research</span>
                   </li>
                 </ul>
               </div>
             </div>
 
-            {/* Data Analytics & AI */}
+            {/* SimPPL */}
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
               <div className="flex justify-center">
                 <img
-                  src="/placeholder.svg?height=400&width=600"
-                  alt="Data Analytics & AI"
+                  src="/simppl-team.webp"
+                  alt="Collaborators"
                   className="rounded-lg object-cover shadow-xl"
                   width={600}
                   height={400}
@@ -200,113 +203,30 @@ export default function Home() {
                   <Database className="h-6 w-6 text-[#e05d44]" />
                 </div>
                 <div className="space-y-2">
-                  <h2 className="text-3xl font-bold tracking-tighter text-[#e05d44]">Data Analytics & AI</h2>
+                  <h2 className="text-3xl font-bold tracking-tighter text-[#e05d44]">Collaborators - SimPPL</h2>
                   <p className="text-gray-600 md:text-lg">
-                    Harness the power of multimodal and multilingual data with advanced agentic AI systems.
+                    We collaborate with the team at SimPPL, a U.S. nonprofit dedicated to rebuilding digital trust and AI tools for the global majority. 
+                    Our partnership focuses on developing a suite of enterprise tools for social listening and media literacy, with a special emphasis on multilingual capabilities.
                   </p>
                 </div>
                 <ul className="space-y-2">
                   <li className="flex items-center gap-2">
                     <div className="h-1.5 w-1.5 rounded-full bg-[#e05d44]" />
-                    <span>Multilingual Language Models</span>
+                    <span>Multilingual AI for Social Cybersecurity and Network Monitoring</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="h-1.5 w-1.5 rounded-full bg-[#e05d44]" />
-                    <span>Multimodal Machine Learning</span>
+                    <span>Multimodal AI Tools for Tracking and Fact-checking Influencers</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="h-1.5 w-1.5 rounded-full bg-[#e05d44]" />
-                    <span>Social Data Processing</span>
+                    <span>Terabyte-scale Social Data Processing across Localized Platforms and Communities</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="h-1.5 w-1.5 rounded-full bg-[#e05d44]" />
-                    <span>Responsible AI Solutions</span>
+                    <span>International Research Programs awarded by Google and Mozilla</span>
                   </li>
                 </ul>
-              </div>
-            </div>
-
-            {/* Web & Mobile Applications */}
-            <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
-              <div className="flex flex-col justify-center space-y-4 order-2 lg:order-1">
-                <div className="p-2 bg-[#e05d44]/10 rounded-full w-fit">
-                  <Globe className="h-6 w-6 text-[#e05d44]" />
-                </div>
-                <div className="space-y-2">
-                  <h2 className="text-3xl font-bold tracking-tighter text-[#e05d44]">Web & Mobile Infrastructure</h2>
-                  <p className="text-gray-600 md:text-lg">
-                    We prioritize vulnerable populations by building civic technologies accessible on any device, in any language.
-                  </p>
-                </div>
-                <ul className="space-y-2">
-                  <li className="flex items-center gap-2">
-                    <div className="h-1.5 w-1.5 rounded-full bg-[#e05d44]" />
-                    <span>Progressive Web Apps (PWA)</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="h-1.5 w-1.5 rounded-full bg-[#e05d44]" />
-                    <span>Native Mobile Applications</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="h-1.5 w-1.5 rounded-full bg-[#e05d44]" />
-                    <span>Designed for the Global Majority</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="h-1.5 w-1.5 rounded-full bg-[#e05d44]" />
-                    <span>Accessibility and Localization</span>
-                  </li>
-                </ul>
-              </div>
-              <div className="flex justify-center order-1 lg:order-2">
-                <img
-                  src="/placeholder.svg?height=400&width=600"
-                  alt="Web & Mobile Applications"
-                  className="rounded-lg object-cover shadow-xl"
-                  width={600}
-                  height={400}
-                />
-              </div>
-            </div>
-
-            {/* Cloud Infrastructure */}
-            <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
-              <div className="flex flex-col justify-center space-y-4 order-2 lg:order-1">
-                <div className="p-2 bg-[#e05d44]/10 rounded-full w-fit">
-                  <Server className="h-6 w-6 text-[#e05d44]" />
-                </div>
-                <div className="space-y-2">
-                  <h2 className="text-3xl font-bold tracking-tighter text-[#e05d44]">Cloud Infrastructure</h2>
-                  <p className="text-gray-600 md:text-lg">
-                    Scalable and secure cloud based AI technologies with low-latency and on-premise deployment for data privacy.
-                  </p>
-                </div>
-                <ul className="space-y-2">
-                  <li className="flex items-center gap-2">
-                    <div className="h-1.5 w-1.5 rounded-full bg-[#e05d44]" />
-                    <span>Cloud Migration</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="h-1.5 w-1.5 rounded-full bg-[#e05d44]" />
-                    <span>Infrastructure as Code</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="h-1.5 w-1.5 rounded-full bg-[#e05d44]" />
-                    <span>DevOps Implementation</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="h-1.5 w-1.5 rounded-full bg-[#e05d44]" />
-                    <span>Managed Cloud Services</span>
-                  </li>
-                </ul>
-              </div>
-              <div className="flex justify-center order-1 lg:order-2">
-                <img
-                  src="/placeholder.svg?height=400&width=600"
-                  alt="Cloud Infrastructure"
-                  className="rounded-lg object-cover shadow-xl"
-                  width={600}
-                  height={400}
-                />
               </div>
             </div>
           </div>
@@ -320,7 +240,7 @@ export default function Home() {
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-[#e05d44]">About Us</h2>
               <p className="max-w-[900px] text-gray-600 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                We're a team of technology experts dedicated to helping businesses succeed in the digital era
+                We're a team of technology experts from MIT, NYU, CERN, Google, and Oxford dedicated to helping businesses succeed in the digital era.
               </p>
             </div>
           </div>
@@ -328,7 +248,7 @@ export default function Home() {
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
             <div className="flex justify-center">
               <img
-                src="/placeholder.svg?height=500&width=500"
+                src="/tachyon-labs-team.webp"
                 alt="Our team"
                 className="rounded-lg object-cover shadow-xl"
                 width={500}
@@ -343,7 +263,7 @@ export default function Home() {
                   firm serving clients in seven countries across the globe.
                 </p>
                 <p className="text-gray-600 md:text-lg">
-                  Over the years, we've helped intergovernmental agencies, civil society, universities, and nonprofits transform their operations, develop innovative
+                  Over the years, we've helped 20+ intergovernmental agencies, civil society, universities, and nonprofits transform their operations, develop innovative
                   products, and stay ahead in an increasingly digital world. Our success is built on our commitment to
                   excellence, our deep technical expertise, cutting-edge research capabilities, and our approach to user-centered design.
                 </p>
