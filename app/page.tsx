@@ -13,6 +13,25 @@ import { toast } from "@/hooks/use-toast"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
 
+
+// emailjs.init({
+//   publicKey: 'YOUR_PUBLIC_KEY',
+//   // Do not allow headless browsers
+//   blockHeadless: true,
+//   blockList: {
+//     // Block the suspended emails
+//     list: ['foo@emailjs.com', 'bar@emailjs.com'],
+//     // The variable contains the email address
+//     watchVariable: 'userEmail',
+//   },
+//   limitRate: {
+//     // Set the limit rate for the application
+//     id: 'app',
+//     // Allow 1 request per 10s
+//     throttle: 10000,
+//   },
+// });
+
 export default function Home() {
   const [formData, setFormData] = useState({
     name: "",
@@ -141,9 +160,11 @@ export default function Home() {
       {/* Sakhi */}
       <section className="w-full py-12 md:py-24 lg:py-32 bg-white">
         <div className="container px-4 md:px-6">
-          <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-[#e05d44]">
-            Impact
-          </h1>
+          <div className="space-y-2 mb-12">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-[#e05d44]">
+              Products
+            </h2>
+          </div>
           <div className="grid gap-12">            
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
               <div className="flex justify-center">
@@ -160,10 +181,10 @@ export default function Home() {
                   <Code className="h-6 w-6 text-[#e05d44]" />
                 </div>
                 <div className="space-y-2">
-                  <h2 className="text-3xl font-bold tracking-tighter text-[#e05d44]">Sakhi Health</h2>
+                  <h2 className="text-3xl font-bold tracking-tighter text-[#e05d44]">Sakhi</h2>
                   <p className="text-gray-600 md:text-lg">
-                    We operate Sakhi Health in India, focused on national health literacy using a novel three-point Generative AI platform supporting mothers, community health workers, 
-                    and nonprofit program officers working with state governments to deliver medical expert-verified multilingual healthcare information to the most vulnerable populations.
+                    We exclusively operate Sakhi Health in India, focusing on national health literacy and deliver medical expert-verified multilingual healthcare information to the most vulnerable populations. 
+                    Our platform uses a novel three-point Generative AI platform supporting mothers, community health workers, and nonprofit program officers working with state governments.
                   </p>
                 </div>
                 <ul className="space-y-2">
@@ -186,7 +207,22 @@ export default function Home() {
                 </ul>
               </div>
             </div>
+            <div className="flex justify-center mt-6">
+              <a
+                href="https://sakhi-health.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block px-6 py-3 text-white bg-[#e05d44] hover:bg-[#c94c36] rounded-lg text-lg font-medium shadow-md transition-all"
+              >
+                Explore Sakhi
+              </a>
+            </div>
 
+          <div className="space-y-2 mb-12">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-[#e05d44]">
+              Collaborators
+            </h2>
+          </div>
             {/* SimPPL */}
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
               <div className="flex justify-center">
@@ -203,10 +239,10 @@ export default function Home() {
                   <Database className="h-6 w-6 text-[#e05d44]" />
                 </div>
                 <div className="space-y-2">
-                  <h2 className="text-3xl font-bold tracking-tighter text-[#e05d44]">Collaborators - SimPPL</h2>
+                  <h2 className="text-3xl font-bold tracking-tighter text-[#e05d44]">SimPPL</h2>
                   <p className="text-gray-600 md:text-lg">
-                    We collaborate with the team at SimPPL, a U.S. nonprofit dedicated to rebuilding digital trust and AI tools for the global majority. 
-                    Our partnership focuses on developing a suite of enterprise tools for social listening and media literacy, with a special emphasis on multilingual capabilities.
+                    We partner with the team at SimPPL, a U.S. nonprofit to offer educational fellowships dedicated to rebuilding digital trust. 
+                    Our partnership focuses on providing mentorship for AI Product Development Fellowships offered to students at underserved educational institutions across India.
                   </p>
                 </div>
                 <ul className="space-y-2">
@@ -229,6 +265,18 @@ export default function Home() {
                 </ul>
               </div>
             </div>
+
+            <div className="flex justify-center mt-6">
+              <a
+                href="https://simppl.org"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block px-6 py-3 text-white bg-[#e05d44] hover:bg-[#c94c36] rounded-lg text-lg font-medium shadow-md transition-all"
+              >
+                Explore SimPPL
+              </a>
+            </div>
+
           </div>
         </div>
       </section>
@@ -318,117 +366,52 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="grid gap-6 lg:grid-cols-2 lg:gap-12">
-            <div className="flex flex-col justify-center space-y-4">
-              <div className="grid gap-6">
-                <div className="flex items-start gap-4">
-                  <div className="p-2 bg-[#e05d44]/10 rounded-full">
-                    <MapPin className="h-6 w-6 text-[#e05d44]" />
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold">Our Office</h3>
-                    <p className="text-gray-600">
-                      Bunglow no. 5 Dip Bunglow, Opp Satya Triveni Tower,
-                      <br />
-                      Jodhpur Char Rasta, Ahmedabad, Ahmadabad City,
-                      <br />
-                      Gujarat, India, 380015
-                    </p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-4">
-                  <div className="p-2 bg-[#e05d44]/10 rounded-full">
-                    <Phone className="h-6 w-6 text-[#e05d44]" />
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold">Phone</h3>
-                    <p className="text-gray-600">+91 9328086219</p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-4">
-                  <div className="p-2 bg-[#e05d44]/10 rounded-full">
-                    <Mail className="h-6 w-6 text-[#e05d44]" />
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold">Email</h3>
-                    <p className="text-gray-600">tachyonlabs.innovations@gmail.com</p>
-                  </div>
-                </div>
+            <div className="flex flex-col items-center justify-center space-y-6">
+            <div className="grid gap-6 md:grid-cols-3">
+              <div className="flex items-start gap-4">
+              <div className="p-2 bg-[#e05d44]/10 rounded-full">
+                <MapPin className="h-6 w-6 text-[#e05d44]" />
               </div>
-              <div className="pt-4">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.9061741211367!2d72.54170937599761!3d23.02999997917887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84f521640d4b%3A0x6853ee97a9a2944b!2sJodhpur%20Char%20Rasta%2C%20Ahmedabad%2C%20Gujarat%20380015!5e0!3m2!1sen!2sin!4v1710607601000!5m2!1sen!2sin"
-                  width="100%"
-                  height="300"
-                  style={{ border: 0 }}
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  className="rounded-lg shadow-md"
-                ></iframe>
+              <div>
+                <h3 className="text-lg font-semibold">Our Office</h3>
+                <p className="text-gray-600">
+                  Ahmedabad, India
+                </p>
+              </div>
+              </div>
+              <div className="flex items-start gap-4">
+              <div className="p-2 bg-[#e05d44]/10 rounded-full">
+                <Phone className="h-6 w-6 text-[#e05d44]" />
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold">Phone</h3>
+                <p className="text-gray-600">+91 9328086219</p>
+              </div>
+              </div>
+              <div className="flex items-start gap-4">
+              <div className="p-2 bg-[#e05d44]/10 rounded-full">
+                <Mail className="h-6 w-6 text-[#e05d44]" />
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold">Email</h3>
+                <p className="text-gray-600">tachyonlabs.innovations@gmail.com</p>
+              </div>
               </div>
             </div>
-            <div>
-              <Card className="shadow-md">
-                <CardContent className="p-6">
-                  <form onSubmit={handleSubmit} className="grid gap-4">
-                    <div className="grid gap-2">
-                      <Label htmlFor="name">Full Name</Label>
-                      <Input
-                        id="name"
-                        name="name"
-                        placeholder="John Doe"
-                        value={formData.name}
-                        onChange={handleChange}
-                        required
-                      />
-                    </div>
-                    <div className="grid gap-2">
-                      <Label htmlFor="email">Email</Label>
-                      <Input
-                        id="email"
-                        name="email"
-                        type="email"
-                        placeholder="john@example.com"
-                        value={formData.email}
-                        onChange={handleChange}
-                        required
-                      />
-                    </div>
-                    <div className="grid gap-2">
-                      <Label htmlFor="phone">Phone Number</Label>
-                      <Input
-                        id="phone"
-                        name="phone"
-                        placeholder="+91 98765 43210"
-                        value={formData.phone}
-                        onChange={handleChange}
-                      />
-                    </div>
-                    <div className="grid gap-2">
-                      <Label htmlFor="message">Message</Label>
-                      <Textarea
-                        id="message"
-                        name="message"
-                        placeholder="Tell us about your project or inquiry"
-                        value={formData.message}
-                        onChange={handleChange}
-                        className="min-h-[120px]"
-                        required
-                      />
-                    </div>
-                    <Button
-                      type="submit"
-                      className="w-full bg-[#e05d44] hover:bg-[#c94c36] text-white border-none"
-                      disabled={isSubmitting}
-                    >
-                      {isSubmitting ? "Sending..." : "Send Message"}
-                    </Button>
-                  </form>
-                </CardContent>
-              </Card>
+            
+            <div className="pt-4 w-full max-w-2xl">
+              <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.9061741211367!2d72.54170937599761!3d23.02999997917887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84f521640d4b%3A0x6853ee97a9a2944b!2sJodhpur%20Char%20Rasta%2C%20Ahmedabad%2C%20Gujarat%20380015!5e0!3m2!1sen!2sin!4v1710607601000!5m2!1sen!2sin"
+              width="100%"
+              height="300"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              className="rounded-lg shadow-md"
+              ></iframe>
             </div>
-          </div>
+            </div>
         </div>
       </section>
 

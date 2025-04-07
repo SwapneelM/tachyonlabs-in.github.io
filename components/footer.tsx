@@ -47,11 +47,7 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-[#e05d44] mt-0.5" />
                 <span className="text-gray-600">
-                  BUNGLOW NO. 5 DIP BUNGLOW, OPP SATY TIRVENI TOWER,
-                  <br />
-                  Jodhpur Char Rasta, Ahmedabad, Ahmadabad City,
-                  <br />
-                  Gujarat, India, 380015
+                  Ahmedabad, India
                 </span>
               </li>
               <li className="flex items-center gap-3">
