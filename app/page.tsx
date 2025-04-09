@@ -83,7 +83,7 @@ export default function Home() {
               </h1>
               <p className="text-xl text-[#e05d44] font-medium mb-2">Accelerating AI-led Innovation</p>
               <p className="max-w-[600px] text-gray-600 md:text-xl mx-auto">
-                Tachyon Labs leverages decades of research and engineering experience to solve complex technological challenges in global development.
+                Tachyon Labs leverages decades of research and engineering experience to solve complex technological challenges in the global information environment.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
@@ -169,8 +169,8 @@ export default function Home() {
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
               <div className="flex justify-center">
                 <img
-                  src="/sakhi-jalgaon.webp"
-                  alt="Sakhi Health using Generative AI for Digital Literacy"
+                  src="/arbiter-social-search.webp"
+                  alt="Social Search using Generative AI"
                   className="rounded-lg object-cover shadow-xl"
                   width={600}
                   height={400}
@@ -181,40 +181,40 @@ export default function Home() {
                   <Code className="h-6 w-6 text-[#e05d44]" />
                 </div>
                 <div className="space-y-2">
-                  <h2 className="text-3xl font-bold tracking-tighter text-[#e05d44]">Sakhi</h2>
+                  <h2 className="text-3xl font-bold tracking-tighter text-[#e05d44]">Arbiter</h2>
                   <p className="text-gray-600 md:text-lg">
-                    We exclusively operate Sakhi Health in India, focusing on national health literacy and deliver medical expert-verified multilingual healthcare information to the most vulnerable populations. 
-                    Our platform uses a novel three-point Generative AI platform supporting mothers, community health workers, and nonprofit program officers working with state governments.
+                    We exclusively operate Arbiter, focusing on multimodal social listening for cyber defense. 
+                    Our platform detects and reports information operations, and our work has led to takedowns by Meta and investigations by X (Twitter).
                   </p>
                 </div>
                 <ul className="space-y-2">
                   <li className="flex items-center gap-2">
                     <div className="h-1.5 w-1.5 rounded-full bg-[#e05d44]" />
-                    <span>Medical Expert-verified Information</span>
+                    <span>Multimodal AI Models to Detect Influence Campaigns</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="h-1.5 w-1.5 rounded-full bg-[#e05d44]" />
-                    <span>Evidence-based Health Intervention Technology</span>
+                    <span>Transparent Public Auditing of Information Networks</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="h-1.5 w-1.5 rounded-full bg-[#e05d44]" />
-                    <span>Community-based Model for Data Governance</span>
+                    <span>Enable Community-based Moderation of Local Content</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="h-1.5 w-1.5 rounded-full bg-[#e05d44]" />
-                    <span>Ongoing Multi-state Pilots with Indian Council of Medical Research</span>
+                    <span>Pilots in Mongolia, Germany, USA, India</span>
                   </li>
                 </ul>
               </div>
             </div>
             <div className="flex justify-center mt-6">
               <a
-                href="https://sakhi-health.com"
+                href="https://arbiter.simppl.org"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block px-6 py-3 text-white bg-[#e05d44] hover:bg-[#c94c36] rounded-lg text-lg font-medium shadow-md transition-all"
               >
-                Explore Sakhi
+                Request a Demo of Arbiter
               </a>
             </div>
 
